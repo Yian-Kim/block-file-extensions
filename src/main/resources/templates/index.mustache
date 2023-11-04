@@ -1,0 +1,41 @@
+{{>layout/header}}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="centered">
+            <div class="col-md-8 board-list">
+                <hr>
+                <h1>파일 확장자 차단</h1>
+                <hr>
+                <h4>파일 확장자에 따라 특정 형식의 파일을 첨부하거나 전송하지 못하도록 제한</h4>
+                <table class="table table-horizontal table-bordered table-border">
+                    <tr class="table-border">
+                        <td class="extensions-option table-border">고정 확장자</td>
+                        <td colspan="3" class="table-border">
+                        {{#extensions}}
+                            <input type="checkbox" id="" onClick="">test2
+                        {{/extensions}}
+                        {{^extensions}}
+                            <p></p>
+                        {{/extensions}}
+                        </td>
+                    </tr>
+                    <tr class="table-border">
+                        <td rowspan="2" class="extensions-option table-border">커스텀 확장자</td>
+                        <td colspan="3" class="table-border">
+                            <input type="text" class="extensions-input" placeholder="확장자 입력"/>
+                            <a role="button" class="btn btn-secondary">+추가</a>
+                        </td>
+                    </tr>
+                    <tr class="table-border">
+                        <td colspan="3" class="table-border">
+                            <input type="text" class="extensions-output"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{>layout/footer}}

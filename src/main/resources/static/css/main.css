@@ -1,0 +1,39 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+
+/* index.mustache */
+.centered {
+    height: 100%;
+}
+
+.extensions-option {
+    width: 20%;
+}
+
+.extensions-input {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    width: 60%;
+    height: 12px;
+}
+
+.extensions-output {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.table-border {
+    border-right: hidden !important;
+    border-left: hidden !important;
+    border-top: hidden !important;
+    border-bottom: hidden !important;
+}
